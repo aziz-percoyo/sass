@@ -1,0 +1,19 @@
+/* The best way */
+/* line 2, ../scss/app.scss */
+.btn--twitter, .btn--facebook {
+  min-width: 100px;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+/* line 7, ../scss/app.scss */
+.btn--twitter {
+  color: #fff;
+  background: #55acee;
+}
+
+/* line 11, ../scss/app.scss */
+.btn--facebook {
+  color: #fff;
+  background: #3b5998;
+}
