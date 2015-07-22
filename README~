@@ -16,6 +16,7 @@ git push -u origin master
 
 
 ===push an existing repository from the command line===
-
+git add .
+git commit -m "your comment"
 git remote add origin https://github.com/aziz-percoyo/sass.git
 git push -u origin master
