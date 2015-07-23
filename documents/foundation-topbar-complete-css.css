@@ -47,7 +47,9 @@ margin: 0;
 {
 height: 45px;
 margin: 0;
-font-size: 16px; 
+font-size: 16px;
+/*=============CHANGE COLOR OF MENU HEAD OF TOOGLE MENU================*/
+background: gray; 
 }
 .top-bar .name h1 
 {
@@ -110,7 +112,9 @@ display: block;
 width: 16px;
 height: 0;
 -webkit-box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white;
-box-shadow: 0 10px 0 1px white, 0 16px 0 1px white, 0 22px 0 1px white; 
+/*===============COLOR OF HORIZONTAL BAR OF TOOGLE MENU======================*/
+box-shadow: 0 10px 0 1px red, 0 16px 0 1px red, 0 22px 0 1px red;
+color: red;                                  
 }
 .top-bar.expanded 
 {
@@ -128,7 +132,8 @@ color: #888888;
 .top-bar.expanded .toggle-topbar a span 
 {
 -webkit-box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888;
-box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888; 
+/*==============CHANGE HORIZONTAL BAR COLOR OF TOGGLE MENU=================*/
+box-shadow: 0 10px 0 1px red, 0 16px 0 1px red, 0 22px 0 1px red; 
 }
 
 .top-bar-section 
@@ -162,7 +167,8 @@ width: 100%;
 {
 display: block;
 width: 100%;
-color: white;
+ /*===========YOU CAN CAHNGE MENU LINKS COLOR OF TOGGLE MENU==========*/
+color:  red;                           
 padding: 12px 0 12px 0;
 padding-left: 15px;
 font-size: 0.8125em;
@@ -174,7 +180,8 @@ background: #000000;
 background: #000000;
 font-size: 0.8125em;
 padding-right: 15px;
-padding-left: 15px; 
+padding-left: 15px;
+color: red; 
 }
 .top-bar-section ul li > a.button:hover 
 {
@@ -207,7 +214,8 @@ background: #000000;
 .top-bar-section ul li:hover > a 
 {
 background: #000000;
-color: white; 
+/*===========YOU CAN CAHNGE MENU LINKS HOVER COLOR OF TOGGLE MENU===========*/
+color: red;                                         
 }
 .top-bar-section ul li.active > a 
 {
@@ -386,11 +394,15 @@ color: white;
 {
 padding: 0 15px;
 line-height: 45px;
-background: #000000; 
+background: #000000;
+/*=============YOU CAN CHANGE MENU LINKS COLOR HERE=============*/
+color: red;                                 
 }
 .top-bar-section li a:not(.button):hover 
 {
-background: #000000; 
+background: #000000;
+/*============YOU CAN CHANGE MENU LINKS HOVER COLOR HERE=================*/
+color: red;                                 
 }
 .top-bar-section .has-dropdown > a 
 {
