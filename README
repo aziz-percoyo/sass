@@ -3,8 +3,9 @@ This is git repository.
 https://github.com/aziz-percoyo/sass.git
 
 
-git config --global user.name "Your Name Here"
-git config --global user.email "your_email@youremail.com"
+git config --global user.name "aziz-percoyo"
+git config --global user.email "aziz.percoyo@gmail.com"
+password - percoyo$123
 
 ===create a new repository on the command line===
 
